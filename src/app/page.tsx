@@ -1,3 +1,11 @@
+import Button from "@/components/ui/Button";
+
 export default function Home() {
-  return <h1>realtime</h1>;
+  return (
+    <div>
+      <Button size="lg" variant="ghost">
+        hello
+      </Button>
+    </div>
+  );
 }
